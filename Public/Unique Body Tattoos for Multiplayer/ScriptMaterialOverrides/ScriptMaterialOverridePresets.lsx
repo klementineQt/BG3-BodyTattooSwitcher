@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="3" revision="0" build="302"/>
+    <region id="ScriptMaterialOverridePresets">
+        <node id="root">
+            <children>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="UBTM_Tattoo0"/>
+                    <attribute id="UUID" type="guid" value="220a26d4-c8a5-4eb0-8f20-743fa7d95339"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="f11af33d-a757-49aa-bdf3-2aaa22dabfb3"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="UBTM_Tattoo1"/>
+                    <attribute id="UUID" type="guid" value="fb72da11-0cb1-45af-ab0d-4c575b1c89eb"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="3dd184e9-2763-4c4e-901d-b0ae09804107"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="UBTM_Tattoo2"/>
+                    <attribute id="UUID" type="guid" value="b59f566f-d333-4188-8641-db66ec6a59df"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="29ae89f6-6408-43d2-b175-a348a7a1f7bc"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="UBTM_Tattoo3"/>
+                    <attribute id="UUID" type="guid" value="020353e3-d6af-4954-97b5-a72fa7ca1319"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="aa510108-6cef-4ea4-9e5a-20344c1df0b2"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="UBTM_Tattoo4"/>
+                    <attribute id="UUID" type="guid" value="be8e1efe-f771-4132-9ec4-2b70c5d8fea9"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="dde649a4-da90-4939-9d64-6f80ad52a6fa"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="UBTM_Tattoo5"/>
+                    <attribute id="UUID" type="guid" value="1bd4956b-9e52-4f29-93dd-005ad933c56b"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="e400de5b-17ab-4cd5-a809-307d2f854e01"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="UBTM_Tattoo6"/>
+                    <attribute id="UUID" type="guid" value="23009130-f0f2-48e1-91f6-9da7e2433e0b"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="737a59d8-58d2-4480-b885-bef73cd8c684"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="UBTM_Tattoo7"/>
+                    <attribute id="UUID" type="guid" value="d1da6a01-ee85-4a5a-8d02-4e0b3f6bfdfc"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="66f20ba9-cd27-40d2-b6d8-5a6288e21073"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="UBTM_Tattoo8"/>
+                    <attribute id="UUID" type="guid" value="f5c687b6-6cea-42a8-917a-2ad633e610ce"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="8c03d946-dc8c-4ec7-be81-71c8e46b7215"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="UBTM_Tattoo9"/>
+                    <attribute id="UUID" type="guid" value="31696d71-dd26-484a-bf96-5ec05e34ac5b"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="6ec44d38-7e55-469d-b294-a74f8165ee4b"/>
+                        </node>
+                    </children>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
