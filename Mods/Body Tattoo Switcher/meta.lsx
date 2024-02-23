@@ -8,14 +8,14 @@
         <node id="ModuleInfo">
           <attribute id="Author" type="LSString" value="klementineQt" />
           <attribute id="CharacterCreationLevelName" type="FixedString" value="" />
-          <attribute id="Description" type="LSString" value="Allows users to use different body tattoos for different tavs :)" />
-          <attribute id="Folder" type="LSString" value="Unique Body Tattoos for Multiplayer" />
+          <attribute id="Description" type="LSString" value="Allows users to switch body tattoos :)" />
+          <attribute id="Folder" type="LSString" value="Body Tattoo Switcher" />
           <attribute id="GMTemplate" type="FixedString" value="" />
           <attribute id="LobbyLevelName" type="FixedString" value="" />
           <attribute id="MD5" type="LSString" value="" />
           <attribute id="MainMenuBackgroundVideo" type="FixedString" value="" />
           <attribute id="MenuLevelName" type="FixedString" value="" />
-          <attribute id="Name" type="FixedString" value="Unique Body Tattoos for Multiplayer" />
+          <attribute id="Name" type="FixedString" value="Body Tattoo Switcher" />
           <attribute id="NumPlayers" type="uint8" value="4" />
           <attribute id="PhotoBooth" type="FixedString" value="" />
           <attribute id="StartupLevelName" type="FixedString" value="" />
