@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <save>
-    <version major="4" minor="0" revision="6" build="5" lslib_meta="v1,bswap_guids" />
-    <region id="root">
+    <version major="4" minor="0" revision="6" build="5" />
+    <region id="TextureAtlasInfo">
+        <node id="root">
+            <children>
+                <node id="TextureAtlasIconSize">
+                    <attribute id="Height" type="int32" value="64" />
+                    <attribute id="Width" type="int32" value="64" />
+                </node>
+                <node id="TextureAtlasPath">
+                    <attribute id="Path" type="LSString" value="Assets\Textures\Icons\Icons_kQt_BTS.dds" />
+                    <attribute id="UUID" type="FixedString" value="430cbff3-66e8-40e7-a67f-6b54ac490a78" />
+                </node>
+                <node id="TextureAtlasTextureSize">
+                    <attribute id="Height" type="int32" value="2048" />
+                    <attribute id="Width" type="int32" value="2048" />
+                </node>
+            </children>
+        </node>
+    </region>
+    <region id="IconUVList">
         <node id="root">
             <children>
                 <node id="IconUV">
