@@ -14,6 +14,7 @@ function OnSessionLoaded()
     Ext.Osiris.RegisterListener("CharacterJoinedParty", 1, "after", function(character)
         Utils.AddBTSSpell(character)
     end)
+
     -- Remove body tattoo spell
     Ext.Osiris.RegisterListener("UsingSpell", 5, "after", function(caster, spell, _, _, _)
         if spell == "BTS_RemoveTattoo" then
