@@ -10,30 +10,34 @@ function OnSessionLoaded()
         end
     end)
 
-    -- Adds the spell to new party members
+    -- Adds the spell container to new party members
     Ext.Osiris.RegisterListener("CharacterJoinedParty", 1, "after", function(character)
         Utils.AddBTSSpell(character)
     end)
 
-    -- Remove body tattoo spell
+    -- Removes the spell container from characters leaving the party
+    Ext.Osiris.RegisterListener("CharacterLeftParty", 1, "after", function(character)
+        Utils.RemoveBTSSpell(character)
+    end)
+
+    -- Spell for removing body tattoo override
     Ext.Osiris.RegisterListener("UsingSpell", 5, "after", function(caster, spell, _, _, _)
         if spell == "BTS_RemoveTattoo" then
             Osi.RemoveCustomMaterialOverride(caster, Constants.BODYTATTOOS[PersistentVars[caster]])
         end
     end)
 
-    -- Switch body tattoo spells
+    -- Spells to switch tattoo overrides
     Ext.Osiris.RegisterListener("UsingSpell", 5, "after", function(caster, spell, _, _, _)
         if string.match(spell, "BTS_SwitchTattoo%d+") then
             if PersistentVars[caster] then
                 Osi.RemoveCustomMaterialOverride(caster, Constants.BODYTATTOOS[PersistentVars[caster]])
             end
             local tattoonum = tonumber(string.match(spell, "BTS_SwitchTattoo(%d+)"))
-            PersistentVars[caster] = tattoonum + 1
-            Osi.AddCustomMaterialOverride(caster, Constants.BODYTATTOOS[tattoonum + 1])
+            PersistentVars[caster] = tattoonum
+            Osi.AddCustomMaterialOverride(caster, Constants.BODYTATTOOS[tattoonum])
         end
     end)
-
 end
 
 Ext.Events.SessionLoaded:Subscribe(OnSessionLoaded)
