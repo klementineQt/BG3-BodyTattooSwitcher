@@ -25,6 +25,7 @@ function OnSessionLoaded()
     Ext.Osiris.RegisterListener("UsingSpell", 5, "after", function(caster, spell, _, _, _)
         if spell == "BTS_RevertTattoo" then
             Osi.RemoveCustomMaterialOverride(caster, Constants.BODYTATTOOS[PersistentVars[caster]])
+            PersistentVars[caster] = nil
         end
     end)
 
@@ -37,8 +38,8 @@ function OnSessionLoaded()
                 Osi.RemoveCustomMaterialOverride(caster, Constants.BODYTATTOOS[PersistentVars[caster]])
             end
             local tattoonum = tonumber(string.match(spell, "BTS_SwitchTattoo(%d+)_Qt"))
-            PersistentVars[caster] = tattoonum
             Osi.AddCustomMaterialOverride(caster, Constants.BODYTATTOOS[tattoonum])
+            PersistentVars[caster] = tattoonum
         end
     end)
 end
