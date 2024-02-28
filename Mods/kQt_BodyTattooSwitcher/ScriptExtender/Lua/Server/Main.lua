@@ -1,3 +1,4 @@
+-- All we're storing in this mf rn is each character the override is applied to and obvs which override lol
 PersistentVars = {}
 
 function OnSessionLoaded()
@@ -29,7 +30,9 @@ function OnSessionLoaded()
 
     -- Spells to switch tattoo overrides
     Ext.Osiris.RegisterListener("UsingSpell", 5, "after", function(caster, spell, _, _, _)
+        -- Check the numbers in the spell name to determine which tattoo to switch to. Genius mode 😎
         if string.match(spell, "BTS_SwitchTattoo%d+_Qt") then
+            -- Check if an override already exists so we don't end up with one that can't be removed in-game
             if PersistentVars[caster] then
                 Osi.RemoveCustomMaterialOverride(caster, Constants.BODYTATTOOS[PersistentVars[caster]])
             end

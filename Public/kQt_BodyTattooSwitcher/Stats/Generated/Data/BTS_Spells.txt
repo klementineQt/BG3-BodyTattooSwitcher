@@ -2,7 +2,7 @@ new entry "BTS_SpellContainer"
 type "SpellData"
 data "SpellType" "Shout"
 data "AIFlags" "CanNotUse"
-data "ContainerSpells" "BTS_RevertTattoo;BTS_SwitchTattoo01_Qt;BTS_SwitchTattoo02_Qt;BTS_SwitchTattoo03_Qt;BTS_SwitchTattoo04_Qt;BTS_SwitchTattoo05_Qt;BTS_SwitchTattoo06_Qt;BTS_SwitchTattoo07_Qt;BTS_SwitchTattoo08_Qt;BTS_SwitchTattoo09_Qt;BTS_SwitchTattoo10_Qt;BTS_SwitchTattoo11_Qt;BTS_SwitchTattoo12_Qt;BTS_SwitchTattoo13_Qt;BTS_SwitchTattoo14_Qt;BTS_SwitchTattoo15_Qt;BTS_SwitchTattoo16_Qt;BTS_SwitchTattoo17_Qt;BTS_SwitchTattoo18_Qt;BTS_SwitchTattoo19_Qt;BTS_SwitchTattoo20_Qt"
+data "ContainerSpells" "BTS_RevertTattoo;BTS_SwitchTattoo02_Qt;BTS_SwitchTattoo03_Qt;BTS_SwitchTattoo04_Qt;BTS_SwitchTattoo05_Qt;BTS_SwitchTattoo06_Qt;BTS_SwitchTattoo07_Qt;BTS_SwitchTattoo08_Qt;BTS_SwitchTattoo09_Qt;BTS_SwitchTattoo10_Qt;BTS_SwitchTattoo11_Qt;BTS_SwitchTattoo12_Qt;BTS_SwitchTattoo13_Qt;BTS_SwitchTattoo14_Qt;BTS_SwitchTattoo15_Qt;BTS_SwitchTattoo16_Qt;BTS_SwitchTattoo17_Qt;BTS_SwitchTattoo18_Qt;BTS_SwitchTattoo19_Qt;BTS_SwitchTattoo20_Qt"
 data "TargetConditions" "Self()"
 data "Icon" "BTS_Icon_SpellContainer"
 data "DisplayName" "hc8e19358d3b542c292417c0c9fd7515b8662;1"
@@ -35,124 +35,136 @@ data "PrepareEffect" "63816502-951b-4242-a9a2-fa8b5228f18a"
 data "CastEffect" "d314aed0-4fb5-44dc-98c4-614297017694"
 data "SpellSoundMagnitude" "Big"
 
-new entry "BTS_SwitchTattoo01_Qt"
-type "SpellData"
-data "SpellType" "Shout"
-using "BTS_RevertTattoo"
-data "Icon" "BTS_Icon_SwitchTattoo"
-data "DisplayName" "h1b397e9850d847d58e5b8d45a0a6316c79d0;1"
-data "Description" "h88b13d9c66ec43e9b5a1fa4f0e3e548ag966;1"
-
 new entry "BTS_SwitchTattoo02_Qt"
 type "SpellData"
 data "SpellType" "Shout"
-using "BTS_SwitchTattoo01_Qt
+using "BTS_RevertTattoo"
+data "Icon" "BTS_Icon_SwitchTattoo02_Qt"
 data "DisplayName" "h60f4b87a5f6944a0ab1d458808b22fcfe6e0;1"
+data "Description" "h88b13d9c66ec43e9b5a1fa4f0e3e548ag966;1"
 
 new entry "BTS_SwitchTattoo03_Qt"
 type "SpellData"
 data "SpellType" "Shout"
-using "BTS_SwitchTattoo01_Qt
+using "BTS_SwitchTattoo02_Qt"
+data "Icon" "BTS_Icon_SwitchTattoo03_Qt"
 data "DisplayName" "h33bae56fb0a643cc8807657aa981690cf5ef;1"
 
 new entry "BTS_SwitchTattoo04_Qt"
 type "SpellData"
 data "SpellType" "Shout"
-using "BTS_SwitchTattoo01_Qt
+using "BTS_SwitchTattoo02_Qt"
+data "Icon" "BTS_Icon_SwitchTattoo04_Qt"
 data "DisplayName" "h436761ef277d44aa80a9e9ccdc2d3bd34bf3;1"
 
 new entry "BTS_SwitchTattoo05_Qt"
 type "SpellData"
 data "SpellType" "Shout"
-using "BTS_SwitchTattoo01_Qt
+using "BTS_SwitchTattoo02_Qt"
+data "Icon" "BTS_Icon_SwitchTattoo05_Qt"
 data "DisplayName" "hde058f384ae34ab1b2bc6e7b7e5ac155d5e1;1"
 
 new entry "BTS_SwitchTattoo06_Qt"
 type "SpellData"
 data "SpellType" "Shout"
-using "BTS_SwitchTattoo01_Qt
+using "BTS_SwitchTattoo02_Qt"
+data "Icon" "BTS_Icon_SwitchTattoo06_Qt"
 data "DisplayName" "hcd69c81a32624c4695f78998505a7c8b6936;1"
 
 new entry "BTS_SwitchTattoo07_Qt"
 type "SpellData"
 data "SpellType" "Shout"
-using "BTS_SwitchTattoo01_Qt
+using "BTS_SwitchTattoo02_Qt"
+data "Icon" "BTS_Icon_SwitchTattoo07_Qt"
 data "DisplayName" "h8c80d7bf5c8540ff986831b789f0283f62cb;1"
 
 new entry "BTS_SwitchTattoo08_Qt"
 type "SpellData"
 data "SpellType" "Shout"
-using "BTS_SwitchTattoo01_Qt
+using "BTS_SwitchTattoo02_Qt"
+data "Icon" "BTS_Icon_SwitchTattoo08_Qt"
 data "DisplayName" "h329efabf782b4d9d9579ea4433398a14a65a;1"
 
 new entry "BTS_SwitchTattoo09_Qt"
 type "SpellData"
 data "SpellType" "Shout"
-using "BTS_SwitchTattoo01_Qt
+using "BTS_SwitchTattoo02_Qt"
+data "Icon" "BTS_Icon_SwitchTattoo09_Qt"
 data "DisplayName" "hea5cb6dd27db4acf925c21079d21880129a9;1"
 
 new entry "BTS_SwitchTattoo10_Qt"
 type "SpellData"
 data "SpellType" "Shout"
-using "BTS_SwitchTattoo01_Qt
+using "BTS_SwitchTattoo02_Qt"
+data "Icon" "BTS_Icon_SwitchTattoo10_Qt"
 data "DisplayName" "h5ec5010d6f8845b485b41eaff69af896fd3g;1"
 
 new entry "BTS_SwitchTattoo11_Qt"
 type "SpellData"
 data "SpellType" "Shout"
-using "BTS_SwitchTattoo01_Qt
+using "BTS_SwitchTattoo02_Qt"
+data "Icon" "BTS_Icon_SwitchTattoo11_Qt"
 data "DisplayName" "h896f7fdf50564ab2919e538a1d657d33e2d6;1"
 
 new entry "BTS_SwitchTattoo12_Qt"
 type "SpellData"
 data "SpellType" "Shout"
-using "BTS_SwitchTattoo01_Qt
+using "BTS_SwitchTattoo02_Qt"
+data "Icon" "BTS_Icon_SwitchTattoo12_Qt"
 data "DisplayName" "h4fe3c677f0aa43a2879794819c849b0733f6;1"
 
 new entry "BTS_SwitchTattoo13_Qt"
 type "SpellData"
 data "SpellType" "Shout"
-using "BTS_SwitchTattoo01_Qt
+using "BTS_SwitchTattoo02_Qt"
+data "Icon" "BTS_Icon_SwitchTattoo13_Qt"
 data "DisplayName" "h891e8682977a402288ca57a4aa74b168b1d4;1"
 
 new entry "BTS_SwitchTattoo14_Qt"
 type "SpellData"
 data "SpellType" "Shout"
-using "BTS_SwitchTattoo01_Qt
+using "BTS_SwitchTattoo02_Qt"
+data "Icon" "BTS_Icon_SwitchTattoo14_Qt"
 data "DisplayName" "h18dffc1e5bcc4d128617ae82a442b4245846;1"
 
 new entry "BTS_SwitchTattoo15_Qt"
 type "SpellData"
 data "SpellType" "Shout"
-using "BTS_SwitchTattoo01_Qt
+using "BTS_SwitchTattoo02_Qt"
+data "Icon" "BTS_Icon_SwitchTattoo15_Qt"
 data "DisplayName" "h721a20b4f78f4e0b959c3363d77daec38020;1"
 
 new entry "BTS_SwitchTattoo16_Qt"
 type "SpellData"
 data "SpellType" "Shout"
-using "BTS_SwitchTattoo01_Qt
+using "BTS_SwitchTattoo02_Qt"
+data "Icon" "BTS_Icon_SwitchTattoo16_Qt"
 data "DisplayName" "h58bebb7f083649338c847a672776d30e449e;1"
 
 new entry "BTS_SwitchTattoo17_Qt"
 type "SpellData"
 data "SpellType" "Shout"
-using "BTS_SwitchTattoo01_Qt
+using "BTS_SwitchTattoo02_Qt"
+data "Icon" "BTS_Icon_SwitchTattoo17_Qt"
 data "DisplayName" "hbe2a7f8b193b40188b7a0728fec8f029g34e;1"
 
 new entry "BTS_SwitchTattoo18_Qt"
 type "SpellData"
 data "SpellType" "Shout"
-using "BTS_SwitchTattoo01_Qt
+using "BTS_SwitchTattoo02_Qt"
+data "Icon" "BTS_Icon_SwitchTattoo18_Qt"
 data "DisplayName" "hf60f395840794dd9880152fa965e1f06a55f;1"
 
 new entry "BTS_SwitchTattoo19_Qt"
 type "SpellData"
 data "SpellType" "Shout"
-using "BTS_SwitchTattoo01_Qt
+using "BTS_SwitchTattoo02_Qt"
+data "Icon" "BTS_Icon_SwitchTattoo19_Qt"
 data "DisplayName" "hfa0cde78bd6a4d7cb67c15e504bd5f722b6d;1"
 
 new entry "BTS_SwitchTattoo20_Qt"
 type "SpellData"
 data "SpellType" "Shout"
-using "BTS_SwitchTattoo01_Qt
+using "BTS_SwitchTattoo02_Qt"
+data "Icon" "BTS_Icon_SwitchTattoo20_Qt"
 data "DisplayName" "h93fc5dd46a5d48c68ba4f2399a2ac329f58a;1"

@@ -1,5 +1,6 @@
 Constants.SpellContainer = "BTS_SpellContainer"
 
+-- Includes Tattoo 1(actually 0) even though it isn't used, this makes the Lua cleaner, trust 🙏🏼
 Constants.BODYTATTOOS = {
     "220a26d4-c8a5-4eb0-8f20-743fa7d95339",
     "fb72da11-0cb1-45af-ab0d-4c575b1c89eb",
