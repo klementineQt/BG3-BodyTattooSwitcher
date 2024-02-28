@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <contentList>
     <content contentuid="hc8e19358d3b542c292417c0c9fd7515b8662" version="1">Body Tattoo Switcher</content>
-    <content contentuid="h2b595a32077340aa90cf4f926f37b962b83f" version="1">Change/remove current body tattoo</content>
-    <content contentuid="h3a44c043790c41e6aa992b4e4e09c49254fd" version="1">Remove Body Tattoo</content>
-    <content contentuid="hdb65f20eb36f43bdb17c1b8761d71255833a" version="1">Removes body tattoos!</content>
+    <content contentuid="h2b595a32077340aa90cf4f926f37b962b83f" version="1">Change/revert current body tattoo</content>
+    <content contentuid="h3a44c043790c41e6aa992b4e4e09c49254fd" version="1">Revert Body Tattoo</content>
+    <content contentuid="hdb65f20eb36f43bdb17c1b8761d71255833a" version="1">Reverts to default body tattoo</content>
     <content contentuid="h1b397e9850d847d58e5b8d45a0a6316c79d0" version="1">Body Tattoo 1</content>
     <content contentuid="h88b13d9c66ec43e9b5a1fa4f0e3e548ag966" version="1">Switch to this body tattoo</content>
     <content contentuid="h60f4b87a5f6944a0ab1d458808b22fcfe6e0" version="1">Body Tattoo 2</content>

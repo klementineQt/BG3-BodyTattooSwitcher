@@ -22,7 +22,7 @@ function OnSessionLoaded()
 
     -- Spell for removing body tattoo override
     Ext.Osiris.RegisterListener("UsingSpell", 5, "after", function(caster, spell, _, _, _)
-        if spell == "BTS_RemoveTattoo" then
+        if spell == "BTS_RevertTattoo" then
             Osi.RemoveCustomMaterialOverride(caster, Constants.BODYTATTOOS[PersistentVars[caster]])
         end
     end)
