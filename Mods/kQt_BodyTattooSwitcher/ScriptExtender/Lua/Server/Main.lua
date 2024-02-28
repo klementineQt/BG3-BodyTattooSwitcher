@@ -29,11 +29,11 @@ function OnSessionLoaded()
 
     -- Spells to switch tattoo overrides
     Ext.Osiris.RegisterListener("UsingSpell", 5, "after", function(caster, spell, _, _, _)
-        if string.match(spell, "BTS_SwitchTattoo%d+") then
+        if string.match(spell, "BTS_SwitchTattoo%d+_Qt") then
             if PersistentVars[caster] then
                 Osi.RemoveCustomMaterialOverride(caster, Constants.BODYTATTOOS[PersistentVars[caster]])
             end
-            local tattoonum = tonumber(string.match(spell, "BTS_SwitchTattoo(%d+)"))
+            local tattoonum = tonumber(string.match(spell, "BTS_SwitchTattoo(%d+)_Qt"))
             PersistentVars[caster] = tattoonum
             Osi.AddCustomMaterialOverride(caster, Constants.BODYTATTOOS[tattoonum])
         end
