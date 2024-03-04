@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <contentList>
     <content contentuid="hc8e19358d3b542c292417c0c9fd7515b8662" version="1">Body Tattoo Switcher</content>
-    <content contentuid="h2b595a32077340aa90cf4f926f37b962b83f" version="1">Change/revert current body tattoo</content>
+    <content contentuid="h2b595a32077340aa90cf4f926f37b962b83f" version="1">Change/revert current body tattoo.</content>
     <content contentuid="h3a44c043790c41e6aa992b4e4e09c49254fd" version="1">Revert Body Tattoo</content>
-    <content contentuid="hdb65f20eb36f43bdb17c1b8761d71255833a" version="1">Reverts to default body tattoo</content>
+    <content contentuid="hdb65f20eb36f43bdb17c1b8761d71255833a" version="1">Reverts to default body tattoo.</content>
     <content contentuid="h60f4b87a5f6944a0ab1d458808b22fcfe6e0" version="1">Body Tattoo 2</content>
     <content contentuid="h88b13d9c66ec43e9b5a1fa4f0e3e548ag966" version="1">Switch to this body tattoo</content>
     <content contentuid="h33bae56fb0a643cc8807657aa981690cf5ef" version="1">Body Tattoo 3</content>
@@ -24,4 +24,22 @@
     <content contentuid="hf60f395840794dd9880152fa965e1f06a55f" version="1">Body Tattoo 18</content>
     <content contentuid="hfa0cde78bd6a4d7cb67c15e504bd5f722b6d" version="1">Body Tattoo 19</content>
     <content contentuid="h93fc5dd46a5d48c68ba4f2399a2ac329f58a" version="1">Body Tattoo 20</content>
+    <content contentuid="hc0677f591fd64d1faff3ccba33bd6fefd3b2" version="1">Show/Hide Tattoo Regions</content>
+    <content contentuid="h57b43e5f471e4181944796aeb4261ec6b418" version="1">Show and hide different regions of body tattoos (if your current tattoo supports it).</content>
+    <content contentuid="h46c7b3854c7549e287bfb6d26f4f45c0273c" version="1">Show All Regions</content>
+    <content contentuid="h607322bf672e4d32a0d98e0361a8bee451de" version="1">Reverts to default of showing all tattoo regions.</content>
+    <content contentuid="he930fae0323348609ca309dfba9bfeafb0de" version="1">Hide All Regions</content>
+    <content contentuid="h8c7d6e0d9000408c9653a8fc087f803b1230" version="1">Hides all tattoo regions.</content>
+    <content contentuid="h56030c8a25104571b71e76d68619de2e7gce" version="1">Show Region 1</content>
+    <content contentuid="ha1f26c02ea5e423c9e4a0c68c4df8fd10a3b" version="1">Shows only tattoo region 1.</content>
+    <content contentuid="h125468e5e3aa44d2a220b979002ebd42167d" version="1">Show Region 2</content>
+    <content contentuid="hf4864aabb77f452d86c8093904b572a47d1b" version="1">Shows only tattoo region 2.</content>
+    <content contentuid="hf298674e99334ff793d8db3e0fb66eb85d8g" version="1">Show Region 3</content>
+    <content contentuid="hcc8363a024d145e597a8c2dd5e8c294f0fg2" version="1">Shows only tattoo region 3.</content>
+    <content contentuid="hca310e3ea30149a98ae953d4be829df1d97g" version="1">Show Regions 1 and 2</content>
+    <content contentuid="h7534b09bf55146418cb294d90fd2e1cc7620" version="1">Shows only tattoo regions 1 and 2.</content>
+    <content contentuid="hd0c7ca21ca704d9aa40293612990a062ec81" version="1">Show Regions 1 and 3</content>
+    <content contentuid="h78f698b7cf7148ea8bd41d506c7193323802" version="1">Shows only tattoo regions 1 and 3.</content>
+    <content contentuid="hfb4229edadff424f94662a1e0f7cfc96c0ef" version="1">Show Regions 2 and 3</content>
+    <content contentuid="hf43d8967c87940798cff03302c0063700904" version="1">Shows only tattoo regions 2 and 3.</content>
 </contentList>

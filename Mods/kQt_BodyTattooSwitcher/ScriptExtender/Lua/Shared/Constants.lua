@@ -1,7 +1,7 @@
-Constants.SpellContainer = "BTS_SpellContainer"
+Constants.SpellContainers = {"BTS_SpellContainer", "BTS_SpellContainer_Opacity"}
 
 -- Includes Tattoo 1(actually 0) even though it isn't used, this makes the Lua cleaner, trust 🙏🏼
-Constants.BODYTATTOOS = {
+Constants.IndexPresets = {
     "220a26d4-c8a5-4eb0-8f20-743fa7d95339",
     "fb72da11-0cb1-45af-ab0d-4c575b1c89eb",
     "b59f566f-d333-4188-8641-db66ec6a59df",
@@ -23,3 +23,15 @@ Constants.BODYTATTOOS = {
     "575e0d73-ba90-42ec-afcb-773375e4599d",
     "69155d61-86a3-4c0e-a205-e695c3455db4"
 }
+
+Constants.OpacityPresets = {
+    BTS_Opacity1_None = "be41d21c-7593-41fc-90f1-917b828ff932",
+    BTS_Opacity2_R = "e806581b-cf76-4281-a158-c32f90e0c2c6",
+    BTS_Opacity3_G = "3bbdd7e4-657e-47fa-afce-9bd874b4d157",
+    BTS_Opacity4_B = "80971792-7470-431a-9128-3902f62bc323",
+    BTS_Opacity5_RG = "3814591e-2dd8-4098-9854-d3b99a199ea7",
+    BTS_Opacity6_RB = "d2f03f46-a3b4-4c85-ba67-4d906d89a400",
+    BTS_Opacity7_GB = "bd71beb6-3f12-4570-bf14-f73f67ce4b54"
+}
+
+Constants.ColorPresets = {}

@@ -177,63 +177,63 @@
                     <attribute id="V2" type="float" value="0.03125" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="BTS_Icon_SpellContainer_Opacity" />
                     <attribute id="U1" type="float" value="0.6875" />
                     <attribute id="U2" type="float" value="0.71875" />
                     <attribute id="V1" type="float" value="0.0" />
                     <attribute id="V2" type="float" value="0.03125" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="BTS_Icon_Opacity0_Revert" />
                     <attribute id="U1" type="float" value="0.71875" />
                     <attribute id="U2" type="float" value="0.75" />
                     <attribute id="V1" type="float" value="0.0" />
                     <attribute id="V2" type="float" value="0.03125" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="BTS_Icon_Opacity1_None" />
                     <attribute id="U1" type="float" value="0.75" />
                     <attribute id="U2" type="float" value="0.78125" />
                     <attribute id="V1" type="float" value="0.0" />
                     <attribute id="V2" type="float" value="0.03125" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="BTS_Icon_Opacity2_R" />
                     <attribute id="U1" type="float" value="0.78125" />
                     <attribute id="U2" type="float" value="0.8125" />
                     <attribute id="V1" type="float" value="0.0" />
                     <attribute id="V2" type="float" value="0.03125" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="BTS_Icon_Opacity3_G" />
                     <attribute id="U1" type="float" value="0.8125" />
                     <attribute id="U2" type="float" value="0.84375" />
                     <attribute id="V1" type="float" value="0.0" />
                     <attribute id="V2" type="float" value="0.03125" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="BTS_Icon_Opacity4_B" />
                     <attribute id="U1" type="float" value="0.84375" />
                     <attribute id="U2" type="float" value="0.875" />
                     <attribute id="V1" type="float" value="0.0" />
                     <attribute id="V2" type="float" value="0.03125" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="BTS_Icon_Opacity5_RG" />
                     <attribute id="U1" type="float" value="0.875" />
                     <attribute id="U2" type="float" value="0.90625" />
                     <attribute id="V1" type="float" value="0.0" />
                     <attribute id="V2" type="float" value="0.03125" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="BTS_Icon_Opacity6_RB" />
                     <attribute id="U1" type="float" value="0.90625" />
                     <attribute id="U2" type="float" value="0.9375" />
                     <attribute id="V1" type="float" value="0.0" />
                     <attribute id="V2" type="float" value="0.03125" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="BTS_Icon_Opacity7_GB" />
                     <attribute id="U1" type="float" value="0.9375" />
                     <attribute id="U2" type="float" value="0.96875" />
                     <attribute id="V1" type="float" value="0.0" />
