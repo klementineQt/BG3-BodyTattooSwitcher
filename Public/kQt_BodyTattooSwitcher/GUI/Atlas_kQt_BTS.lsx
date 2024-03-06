@@ -240,112 +240,112 @@
                     <attribute id="V2" type="float" value="0.03125" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="BTS_Icon_SpellContainer_Color" />
                     <attribute id="U1" type="float" value="0.96875" />
                     <attribute id="U2" type="float" value="1.0" />
                     <attribute id="V1" type="float" value="0.0" />
                     <attribute id="V2" type="float" value="0.03125" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="BTS_Icon_Color00_Metalness" />
                     <attribute id="U1" type="float" value="0.0" />
                     <attribute id="U2" type="float" value="0.03125" />
                     <attribute id="V1" type="float" value="0.03125" />
                     <attribute id="V2" type="float" value="0.0625" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="BTS_Icon_Color01_Reflectance" />
                     <attribute id="U1" type="float" value="0.03125" />
                     <attribute id="U2" type="float" value="0.0625" />
                     <attribute id="V1" type="float" value="0.03125" />
                     <attribute id="V2" type="float" value="0.0625" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="BTS_Icon_Color10_Region1Color" />
                     <attribute id="U1" type="float" value="0.0625" />
                     <attribute id="U2" type="float" value="0.09375" />
                     <attribute id="V1" type="float" value="0.03125" />
                     <attribute id="V2" type="float" value="0.0625" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="BTS_Icon_Color11_Region2Color" />
                     <attribute id="U1" type="float" value="0.09375" />
                     <attribute id="U2" type="float" value="0.125" />
                     <attribute id="V1" type="float" value="0.03125" />
                     <attribute id="V2" type="float" value="0.0625" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="BTS_Icon_Color12_Region3Color" />
                     <attribute id="U1" type="float" value="0.125" />
                     <attribute id="U2" type="float" value="0.15625" />
                     <attribute id="V1" type="float" value="0.03125" />
                     <attribute id="V2" type="float" value="0.0625" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="BTS_Icon_Color20_Black" />
                     <attribute id="U1" type="float" value="0.15625" />
                     <attribute id="U2" type="float" value="0.1875" />
                     <attribute id="V1" type="float" value="0.03125" />
                     <attribute id="V2" type="float" value="0.0625" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="BTS_Icon_Color21_Red" />
                     <attribute id="U1" type="float" value="0.1875" />
                     <attribute id="U2" type="float" value="0.21875" />
                     <attribute id="V1" type="float" value="0.03125" />
                     <attribute id="V2" type="float" value="0.0625" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="BTS_Icon_Color22_Orange" />
                     <attribute id="U1" type="float" value="0.21875" />
                     <attribute id="U2" type="float" value="0.25" />
                     <attribute id="V1" type="float" value="0.03125" />
                     <attribute id="V2" type="float" value="0.0625" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="BTS_Icon_Color23_Yellow" />
                     <attribute id="U1" type="float" value="0.25" />
                     <attribute id="U2" type="float" value="0.28125" />
                     <attribute id="V1" type="float" value="0.03125" />
                     <attribute id="V2" type="float" value="0.0625" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="BTS_Icon_Color24_Green" />
                     <attribute id="U1" type="float" value="0.28125" />
                     <attribute id="U2" type="float" value="0.3125" />
                     <attribute id="V1" type="float" value="0.03125" />
                     <attribute id="V2" type="float" value="0.0625" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="BTS_Icon_Color25_Blue" />
                     <attribute id="U1" type="float" value="0.3125" />
                     <attribute id="U2" type="float" value="0.34375" />
                     <attribute id="V1" type="float" value="0.03125" />
                     <attribute id="V2" type="float" value="0.0625" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="BTS_Icon_Color26_Purple" />
                     <attribute id="U1" type="float" value="0.34375" />
                     <attribute id="U2" type="float" value="0.375" />
                     <attribute id="V1" type="float" value="0.03125" />
                     <attribute id="V2" type="float" value="0.0625" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="BTS_Icon_Color27_Pink" />
                     <attribute id="U1" type="float" value="0.375" />
                     <attribute id="U2" type="float" value="0.40625" />
                     <attribute id="V1" type="float" value="0.03125" />
                     <attribute id="V2" type="float" value="0.0625" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="BTS_Icon_Color28_Brown" />
                     <attribute id="U1" type="float" value="0.40625" />
                     <attribute id="U2" type="float" value="0.4375" />
                     <attribute id="V1" type="float" value="0.03125" />
                     <attribute id="V2" type="float" value="0.0625" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="BTS_Icon_Color29_White" />
                     <attribute id="U1" type="float" value="0.4375" />
                     <attribute id="U2" type="float" value="0.46875" />
                     <attribute id="V1" type="float" value="0.03125" />

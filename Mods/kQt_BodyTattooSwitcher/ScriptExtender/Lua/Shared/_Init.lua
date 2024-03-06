@@ -1,2 +1,3 @@
-Utils = {}
 Constants = {}
+Utils = {}
+CurrentColoringRegion = "Color1"

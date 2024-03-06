@@ -24,7 +24,7 @@
     <content contentuid="hf60f395840794dd9880152fa965e1f06a55f" version="1">Body Tattoo 18</content>
     <content contentuid="hfa0cde78bd6a4d7cb67c15e504bd5f722b6d" version="1">Body Tattoo 19</content>
     <content contentuid="h93fc5dd46a5d48c68ba4f2399a2ac329f58a" version="1">Body Tattoo 20</content>
-    <content contentuid="hc0677f591fd64d1faff3ccba33bd6fefd3b2" version="1">Show/Hide Tattoo Regions</content>
+    <content contentuid="hc0677f591fd64d1faff3ccba33bd6fefd3b2" version="1">Show/Hide Body Tattoo Regions</content>
     <content contentuid="h57b43e5f471e4181944796aeb4261ec6b418" version="1">Show and hide different regions of body tattoos (if your current tattoo supports it).</content>
     <content contentuid="h46c7b3854c7549e287bfb6d26f4f45c0273c" version="1">Show All Regions</content>
     <content contentuid="h607322bf672e4d32a0d98e0361a8bee451de" version="1">Reverts to default of showing all tattoo regions.</content>
@@ -42,4 +42,36 @@
     <content contentuid="h78f698b7cf7148ea8bd41d506c7193323802" version="1">Shows only tattoo regions 1 and 3.</content>
     <content contentuid="hfb4229edadff424f94662a1e0f7cfc96c0ef" version="1">Show Regions 2 and 3</content>
     <content contentuid="hf43d8967c87940798cff03302c0063700904" version="1">Shows only tattoo regions 2 and 3.</content>
+    <content contentuid="h00777778fc774327876f421981b08f86c717" version="1">Change Body Tattoo Colors</content>
+    <content contentuid="h0454b5f8fc8e441da7154c01684866922740" version="1">Change the colors of the various regions of your body tattoo. You can also enable metallic and glossy toggles.</content>
+    <content contentuid="h419e8d8dac094e3488f014c51c5d74e82251" version="1">Toggle Metallic</content>
+    <content contentuid="hf92b9f832e5142f8a3babea558dd0e94bg88" version="1">Toggles whether all regions of your body tattoo are metallic.</content>
+    <content contentuid="hb82dd0419d674f04b8b9c7f8a079251cfa57" version="1">Toggle Glossy</content>
+    <content contentuid="hbeb72156565047328b182fe25820b0052gb7" version="1">Toggles whether all regions of your body tattoo are glossy.</content>
+    <content contentuid="h7e7030d278c848c7b43c1f34b3dacbf2719g" version="1">Select Region 1</content>
+    <content contentuid="he9c26acb5d3f4879b3f681d1571ba7a23ga7" version="1">Selects region 1 for coloring.</content>
+    <content contentuid="h443b60b21ac54ad6a3e42bafec36a4059g4d" version="1">Select Region 2</content>
+    <content contentuid="h66f82c43b38344db877926e0992818fb6cf4" version="1">Selects region 2 for coloring.</content>
+    <content contentuid="hcda2d7b36c57476ca5e3b77b8d70f851fe2f" version="1">Select Region 3</content>
+    <content contentuid="h1f668a1e66c548689de9e6eca67f85a2e0b2" version="1">Selects region 3 for coloring.</content>
+    <content contentuid="hab797531515b483bbdd7509948eb0a5e7g61" version="1">Black</content>
+    <content contentuid="h161ac6362f8845a29db3122855651f68c04c" version="1">Color current selected region black.</content>
+    <content contentuid="heebb84a1730b4a52a461b16199caafdd95d8" version="1">Red</content>
+    <content contentuid="h6800eb2d2e82417d94966c361b07ac548878" version="1">Color current selected region red.</content>
+    <content contentuid="h5e53db4c1c774134b8b428950926e2c6668b" version="1">Orange</content>
+    <content contentuid="hb99f3a53415a4a33855fcf93a2565270656f" version="1">Color current selected region orange.</content>
+    <content contentuid="hd0c3dea445a54ee39c18165c14ad5df90c7c" version="1">Yellow</content>
+    <content contentuid="h5212de9ee1574eb9bd4d9efc29e4951a2385" version="1">Color current selected region yellow.</content>
+    <content contentuid="heafcc6b3f70b46c1b16f2101c80f21898357" version="1">Green</content>
+    <content contentuid="ha7459e0651d6495dafba7fbe5c07ab25e18d" version="1">Color current selected region green.</content>
+    <content contentuid="he63c28be2bf64dc7b01b7eaa24d18521c43g" version="1">Blue</content>
+    <content contentuid="h48d5291d7b3742d18a572d79128fb02c3541" version="1">Color current selected region blue.</content>
+    <content contentuid="he963451ae7bc444e8171efc5a2ae8e847d34" version="1">Purple</content>
+    <content contentuid="h6e65e08f53514b8eb1d8e86df8cd61adc324" version="1">Color current selected region purple.</content>
+    <content contentuid="h503ae27c546d4a6bbd0a0efda26943e316dg" version="1">Pink</content>
+    <content contentuid="h5f15e40f360b498fbc5951bb6b0ceef9d447" version="1">Color current selected region pink.</content>
+    <content contentuid="hb6ccf896718540ec8f560ba32936eb5281a5" version="1">Brown</content>
+    <content contentuid="h499ef1fdc1c046a7a8def57604381a2e058d" version="1">Color current selected region brown.</content>
+    <content contentuid="hf82a3936083b4abd9004ec653f7a2865f623" version="1">White</content>
+    <content contentuid="h87cae4d911db440794a066798e12ab1698a0" version="1">Color current selected region white.</content>
 </contentList>

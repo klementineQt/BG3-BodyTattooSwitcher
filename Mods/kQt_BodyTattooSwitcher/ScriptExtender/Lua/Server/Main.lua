@@ -28,45 +28,33 @@ function OnSessionLoaded()
         Utils.RemoveBTSSpells(character)
     end)
 
-    -- Handle removing index override
+    -- Add and remove material overrides based on spells used
     Ext.Osiris.RegisterListener("UsingSpell", 5, "after", function(caster, spell, _, _, _)
         if spell == "BTS_RevertTattoo" then
-            Osi.RemoveCustomMaterialOverride(caster, Constants.IndexPresets[PersistentVars[caster].Index])
-            PersistentVars[caster].Index = nil
+            Utils.RevertOverride(caster, "Index")
         end
-    end)
 
-    -- Handle removing opacity override
-    Ext.Osiris.RegisterListener("UsingSpell", 5, "after", function(caster, spell, _, _, _)
         if spell == "BTS_Opacity0_Revert" then
-            Osi.RemoveCustomMaterialOverride(caster, Constants.OpacityPresets[PersistentVars[caster].Opacity])
-            PersistentVars[caster].Opacity = nil
+            Utils.RevertOverride(caster, "Opacity")
+        elseif string.match(spell, "BTS_Opacity%d_%a+") then
+            local regionsShown = string.match(spell, "BTS_Opacity%d_(%a+)")
+            Utils.ApplyOverride(caster, "Opacity", regionsShown)
         end
-    end)
 
-    -- Handle tattoo switching overrides 😎
-    Ext.Osiris.RegisterListener("UsingSpell", 5, "after", function(caster, spell, _, _, _)
         if string.match(spell, "BTS_SwitchTattoo%d+_Qt") then
-            -- Check if an override already exists so we don't end up with one that can't be removed in-game
-            if PersistentVars[caster].Index then
-                Osi.RemoveCustomMaterialOverride(caster, Constants.IndexPresets[PersistentVars[caster].Index])
-            end
-            local tattoonum = tonumber(string.match(spell, "BTS_SwitchTattoo(%d+)_Qt"))
-            Osi.AddCustomMaterialOverride(caster, Constants.IndexPresets[tattoonum])
-            PersistentVars[caster].Index = tattoonum
+            local tattooNum = tonumber(string.match(spell, "BTS_SwitchTattoo(%d+)_Qt"))
+            Utils.ApplyOverride(caster, "Index", tattooNum)
         end
-    end)
 
-    -- Handle opacity switching overrides 💯
-    Ext.Osiris.RegisterListener("UsingSpell", 5, "after", function(caster, spell, _, _, _)
-        if spell ~= "BTS_Opacity0_Revert" and string.match(spell, "BTS_Opacity%d_%a+") then
-            -- Check if an override already exists so we don't end up with one that can't be removed in-game
-            if PersistentVars[caster].Opacity then
-                Osi.RemoveCustomMaterialOverride(caster,
-                    Constants.OpacityPresets[PersistentVars[caster].Opacity])
-            end
-            Osi.AddCustomMaterialOverride(caster, Constants.OpacityPresets[spell])
-            PersistentVars[caster].Opacity = spell
+        if spell == "BTS_Color00_Metalness" then
+            Utils.ToggleOverride(caster, "Shine", "Metalness")
+        elseif spell == "BTS_Color01_Reflectance" then
+            Utils.ToggleOverride(caster, "Shine", "Reflectance")
+        elseif string.match(spell, "BTS_Color%d+_Region%dColor") then
+            CurrentColoringRegion = "Color" .. string.match(spell, "BTS_Color%d+_Region(%d)Color")
+        elseif string.match(spell, "BTS_Color%d+_%a+") then
+            local newColor = string.match(spell, "BTS_Color%d+_(%a+)")
+            Utils.ApplyOverride(caster, CurrentColoringRegion, newColor)
         end
     end)
 end
