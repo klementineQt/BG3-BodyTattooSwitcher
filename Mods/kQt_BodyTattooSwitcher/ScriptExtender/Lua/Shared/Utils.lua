@@ -9,9 +9,11 @@ function Utils.SaveInit(character)
     elseif not PersistentVars[character] then
         PersistentVars[character] = {}
         -- Convert early access opacity format (wow i fucked up enough to have to account for something that wasn't released LMAO)
-    elseif string.match(PersistentVars[character].Opacity, "BTS_Opacity%d_%a+") then
-        local newOpacityFormat = string.match(PersistentVars[character].Opacity, "BTS_Opacity%d_(%a+)")
-        PersistentVars[character].Opacity = newOpacityFormat
+    elseif PersistentVars[character].Opacity then
+        if string.match(PersistentVars[character].Opacity, "BTS_Opacity%d_%a+") then
+            local newOpacityFormat = string.match(PersistentVars[character].Opacity, "BTS_Opacity%d_(%a+)")
+            PersistentVars[character].Opacity = newOpacityFormat
+        end
     end
 
     if not PersistentVars[character].Shine then
