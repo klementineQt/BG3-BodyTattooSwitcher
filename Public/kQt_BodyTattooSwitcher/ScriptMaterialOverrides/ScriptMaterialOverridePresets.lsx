@@ -5,6 +5,15 @@
         <node id="root">
             <children>
                 <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Tattoo1"/>
+                    <attribute id="UUID" type="guid" value="81640b3d-cbf6-4048-9773-d89b0d681431"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="6db5a375-ba8f-408c-a40e-0883890f23b9"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
                     <attribute id="PresetName" type="FixedString" value="BTS_Tattoo2"/>
                     <attribute id="UUID" type="guid" value="fb72da11-0cb1-45af-ab0d-4c575b1c89eb"/>
                     <children>
@@ -172,6 +181,15 @@
                     <children>
                         <node id="ParameterUUIDs">
                             <attribute id="Object" type="guid" value="b16c1127-089c-4e4d-ac20-d55110661029"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ScriptMaterialOverridePreset">
+                    <attribute id="PresetName" type="FixedString" value="BTS_Opacity_RGB"/>
+                    <attribute id="UUID" type="guid" value="d0c85bf5-80e0-44c6-a885-893746ecd5b9"/>
+                    <children>
+                        <node id="ParameterUUIDs">
+                            <attribute id="Object" type="guid" value="6890618f-3558-4925-839c-599cc47116d3"/>
                         </node>
                     </children>
                 </node>

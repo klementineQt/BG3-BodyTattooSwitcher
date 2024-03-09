@@ -2,32 +2,50 @@
 <contentList>
     <content contentuid="hc8e19358d3b542c292417c0c9fd7515b8662" version="1">Body Tattoo Switcher</content>
     <content contentuid="h2b595a32077340aa90cf4f926f37b962b83f" version="1">Change/revert current body tattoo.</content>
-    <content contentuid="h3a44c043790c41e6aa992b4e4e09c49254fd" version="1">Revert Body Tattoo</content>
-    <content contentuid="hdb65f20eb36f43bdb17c1b8761d71255833a" version="1">Reverts to default body tattoo.</content>
+    <content contentuid="h3a44c043790c41e6aa992b4e4e09c49254fd" version="1">Body Tattoo 1</content>
+    <content contentuid="hdb65f20eb36f43bdb17c1b8761d71255833a" version="1">Switches to tattoo 1.</content>
     <content contentuid="h60f4b87a5f6944a0ab1d458808b22fcfe6e0" version="1">Body Tattoo 2</content>
-    <content contentuid="h88b13d9c66ec43e9b5a1fa4f0e3e548ag966" version="1">Switch to this body tattoo</content>
+    <content contentuid="h88b13d9c66ec43e9b5a1fa4f0e3e548ag966" version="1">Switches to tattoo 2.</content>
     <content contentuid="h33bae56fb0a643cc8807657aa981690cf5ef" version="1">Body Tattoo 3</content>
+    <content contentuid="h3f47c2cc7d7e4fc2b320b7c072375023bf55" version="1">Switches to tattoo 3.</content>
     <content contentuid="h436761ef277d44aa80a9e9ccdc2d3bd34bf3" version="1">Body Tattoo 4</content>
+    <content contentuid="hee588e2a5c964990a9ff7cfc9866409048e1" version="1">Switches to tattoo 4.</content>
     <content contentuid="hde058f384ae34ab1b2bc6e7b7e5ac155d5e1" version="1">Body Tattoo 5</content>
+    <content contentuid="h90a2982870294c23a246cf8bc0ab92896fe2" version="1">Switches to tattoo 5.</content>
     <content contentuid="hcd69c81a32624c4695f78998505a7c8b6936" version="1">Body Tattoo 6</content>
+    <content contentuid="h8f8cd5cf7aa648a08e69fc24ff5b73095c67" version="1">Switches to tattoo 6.</content>
     <content contentuid="h8c80d7bf5c8540ff986831b789f0283f62cb" version="1">Body Tattoo 7</content>
+    <content contentuid="h1355407daaff4e1d89a94e9c79a6b48416f2" version="1">Switches to tattoo 7.</content>
     <content contentuid="h329efabf782b4d9d9579ea4433398a14a65a" version="1">Body Tattoo 8</content>
+    <content contentuid="h7c6ef71c937a4e208b0c376ef84f3ca87gg6" version="1">Switches to tattoo 8.</content>
     <content contentuid="hea5cb6dd27db4acf925c21079d21880129a9" version="1">Body Tattoo 9</content>
+    <content contentuid="hb031b6ba5af74ec095a26438b2f79b46gf7a" version="1">Switches to tattoo 9.</content>
     <content contentuid="h5ec5010d6f8845b485b41eaff69af896fd3g" version="1">Body Tattoo 10</content>
+    <content contentuid="h7211f53371394051a312d1b3e4b27418121g" version="1">Switches to tattoo 10.</content>
     <content contentuid="h896f7fdf50564ab2919e538a1d657d33e2d6" version="1">Body Tattoo 11</content>
+    <content contentuid="h7198d41cbd6b4af48d9459e78d5403fa1e88" version="1">Switches to tattoo 11.</content>
     <content contentuid="h4fe3c677f0aa43a2879794819c849b0733f6" version="1">Body Tattoo 12</content>
+    <content contentuid="hb0892ab33f9d4f61b142b28b02a91896430a" version="1">Switches to tattoo 12.</content>
     <content contentuid="h891e8682977a402288ca57a4aa74b168b1d4" version="1">Body Tattoo 13</content>
+    <content contentuid="h57ecd48d8f8b448a96eb4355f1188f1ag6f5" version="1">Switches to tattoo 13.</content>
     <content contentuid="h18dffc1e5bcc4d128617ae82a442b4245846" version="1">Body Tattoo 14</content>
+    <content contentuid="h57dfbc55f3764a95a5425df9dcf81976d9c9" version="1">Switches to tattoo 14.</content>
     <content contentuid="h721a20b4f78f4e0b959c3363d77daec38020" version="1">Body Tattoo 15</content>
+    <content contentuid="h07b6c99563604ab9b56d113bc40f3e11ad57" version="1">Switches to tattoo 15.</content>
     <content contentuid="h58bebb7f083649338c847a672776d30e449e" version="1">Body Tattoo 16</content>
+    <content contentuid="h985a30a68d614b1ba079225a2e0ec209116e" version="1">Switches to tattoo 16.</content>
     <content contentuid="hbe2a7f8b193b40188b7a0728fec8f029g34e" version="1">Body Tattoo 17</content>
+    <content contentuid="h720bf040bf5f4bc6b383dc0eb5cf2216614f" version="1">Switches to tattoo 17.</content>
     <content contentuid="hf60f395840794dd9880152fa965e1f06a55f" version="1">Body Tattoo 18</content>
+    <content contentuid="h08501be33a71417c9af9f41fa14619a942eb" version="1">Switches to tattoo 18.</content>
     <content contentuid="hfa0cde78bd6a4d7cb67c15e504bd5f722b6d" version="1">Body Tattoo 19</content>
+    <content contentuid="h08217d426f494747b371044347a6ff4cfab5" version="1">Switches to tattoo 19.</content>
     <content contentuid="h93fc5dd46a5d48c68ba4f2399a2ac329f58a" version="1">Body Tattoo 20</content>
+    <content contentuid="hdb77afc390174615b3e5a2c55bccbb13356a" version="1">Switches to tattoo 20.</content>
     <content contentuid="hc0677f591fd64d1faff3ccba33bd6fefd3b2" version="1">Show/Hide Body Tattoo Regions</content>
     <content contentuid="h57b43e5f471e4181944796aeb4261ec6b418" version="1">Show and hide different regions of body tattoos (if your current tattoo supports it).</content>
     <content contentuid="h46c7b3854c7549e287bfb6d26f4f45c0273c" version="1">Show All Regions</content>
-    <content contentuid="h607322bf672e4d32a0d98e0361a8bee451de" version="1">Reverts to default of showing all tattoo regions.</content>
+    <content contentuid="h607322bf672e4d32a0d98e0361a8bee451de" version="1">Shows all tattoo regions.</content>
     <content contentuid="he930fae0323348609ca309dfba9bfeafb0de" version="1">Hide All Regions</content>
     <content contentuid="h8c7d6e0d9000408c9653a8fc087f803b1230" version="1">Hides all tattoo regions.</content>
     <content contentuid="h56030c8a25104571b71e76d68619de2e7gce" version="1">Show Region 1</content>

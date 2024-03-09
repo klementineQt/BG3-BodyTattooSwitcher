@@ -7,6 +7,12 @@
                 <node id="ScriptMaterialOverrideParameter">
                     <attribute id="ParameterName" type="FixedString" value="BodyTattooIndex"/>
                     <attribute id="ParameterType" type="FixedString" value="Float"/>
+                    <attribute id="ParameterValue" type="LSString" value="0"/>
+                    <attribute id="UUID" type="guid" value="6db5a375-ba8f-408c-a40e-0883890f23b9"/>
+                </node>
+                <node id="ScriptMaterialOverrideParameter">
+                    <attribute id="ParameterName" type="FixedString" value="BodyTattooIndex"/>
+                    <attribute id="ParameterType" type="FixedString" value="Float"/>
                     <attribute id="ParameterValue" type="LSString" value="1"/>
                     <attribute id="UUID" type="guid" value="3dd184e9-2763-4c4e-901d-b0ae09804107"/>
                 </node>
@@ -117,6 +123,12 @@
                     <attribute id="ParameterType" type="FixedString" value="Float"/>
                     <attribute id="ParameterValue" type="LSString" value="19"/>
                     <attribute id="UUID" type="guid" value="b16c1127-089c-4e4d-ac20-d55110661029"/>
+                </node>
+                <node id="ScriptMaterialOverrideParameter">
+                    <attribute id="ParameterName" type="FixedString" value="BodyTattooIntensity"/>
+                    <attribute id="ParameterType" type="FixedString" value="Float4"/>
+                    <attribute id="ParameterValue" type="LSString" value="1;1;1;0"/>
+                    <attribute id="UUID" type="guid" value="6890618f-3558-4925-839c-599cc47116d3"/>
                 </node>
                 <node id="ScriptMaterialOverrideParameter">
                     <attribute id="ParameterName" type="FixedString" value="BodyTattooIntensity"/>

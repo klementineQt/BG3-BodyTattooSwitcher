@@ -30,14 +30,14 @@
                     <attribute id="V2" type="float" value="0.03125" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="BTS_Icon_RevertTattoo" />
+                    <attribute id="MapKey" type="FixedString" value="BTS_Icon_Peachy" />
                     <attribute id="U1" type="float" value="0.03125" />
                     <attribute id="U2" type="float" value="0.0625" />
                     <attribute id="V1" type="float" value="0.0" />
                     <attribute id="V2" type="float" value="0.03125" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="BTS_Icon_Peachy" />
+                    <attribute id="MapKey" type="FixedString" value="BTS_Icon_SwitchTattoo01_Qt" />
                     <attribute id="U1" type="float" value="0.0625" />
                     <attribute id="U2" type="float" value="0.09375" />
                     <attribute id="V1" type="float" value="0.0" />
@@ -184,7 +184,7 @@
                     <attribute id="V2" type="float" value="0.03125" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="BTS_Icon_Opacity0_Revert" />
+                    <attribute id="MapKey" type="FixedString" value="BTS_Icon_Opacity0_RGB" />
                     <attribute id="U1" type="float" value="0.71875" />
                     <attribute id="U2" type="float" value="0.75" />
                     <attribute id="V1" type="float" value="0.0" />

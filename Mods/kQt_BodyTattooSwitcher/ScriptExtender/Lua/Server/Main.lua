@@ -30,20 +30,14 @@ function OnSessionLoaded()
 
     -- Add and remove material overrides based on spells used
     Ext.Osiris.RegisterListener("UsingSpell", 5, "after", function(caster, spell, _, _, _)
-        if spell == "BTS_RevertTattoo" then
-            Utils.RevertOverride(caster, "Index")
-        end
-
-        if spell == "BTS_Opacity0_Revert" then
-            Utils.RevertOverride(caster, "Opacity")
-        elseif string.match(spell, "BTS_Opacity%d_%a+") then
-            local regionsShown = string.match(spell, "BTS_Opacity%d_(%a+)")
-            Utils.ApplyOverride(caster, "Opacity", regionsShown)
-        end
-
         if string.match(spell, "BTS_SwitchTattoo%d+_Qt") then
             local tattooNum = tonumber(string.match(spell, "BTS_SwitchTattoo(%d+)_Qt"))
             Utils.ApplyOverride(caster, "Index", tattooNum)
+        end
+
+        if string.match(spell, "BTS_Opacity%d_%a+") then
+            local regionsShown = string.match(spell, "BTS_Opacity%d_(%a+)")
+            Utils.ApplyOverride(caster, "Opacity", regionsShown)
         end
 
         if spell == "BTS_Color00_Metalness" then

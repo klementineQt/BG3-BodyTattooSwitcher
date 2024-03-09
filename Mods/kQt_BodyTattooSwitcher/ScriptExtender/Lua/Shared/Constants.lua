@@ -7,7 +7,7 @@ Constants.SpellContainers = {
 -- Table of material overrides, with subtables for each type
 Constants.Overrides = {
     Index = {
-        "Tattoo 1 is redundant, but we use #s",
+        "81640b3d-cbf6-4048-9773-d89b0d681431",
         "fb72da11-0cb1-45af-ab0d-4c575b1c89eb",
         "b59f566f-d333-4188-8641-db66ec6a59df",
         "020353e3-d6af-4954-97b5-a72fa7ca1319",
@@ -31,6 +31,7 @@ Constants.Overrides = {
 
     -- Opacity overrides simply toggle which channels are visible
     Opacity = {
+        RGB = "d0c85bf5-80e0-44c6-a885-893746ecd5b9",
         None = "be41d21c-7593-41fc-90f1-917b828ff932",
         R = "e806581b-cf76-4281-a158-c32f90e0c2c6",
         G = "3bbdd7e4-657e-47fa-afce-9bd874b4d157",
